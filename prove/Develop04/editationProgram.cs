@@ -25,7 +25,7 @@ public class editationProgram : Meditation
     {
         base.Quote();
         Random rnd = new Random();
-        int index = rnd.Next(0, 6); // Corrected range to include all quotes
+        int index = rnd.Next(0, 5);
         string[] quotes = new string[] {
             "The quieter you become, the more you can hear. - Baba Ram Dass",
             "Don't let yesterday take up too much of today. - Will Rogers",
