@@ -5,12 +5,10 @@ public class Book
     private Random _random = new Random();
     private List<string> _scriptures = new List<string>();
     private string _selectedScripture = "";
-
     public Book()
     {
         AddScriptures();
     }
-
     private void AddScriptures()
     {
         _scriptures.Add("2 Nephi 28:30 | For behold, thus saith the Lord God: I will give unto the children of men line upon line, precept upon precept, here a little and there a little; and blessed are those who hearken unto my precepts, and lend an ear unto my counsel, for they shall learn wisdom; for unto him that receiveth I will give more; and from them that shall say, We have enough, from them shall be taken away even that which they have.");
@@ -50,7 +48,7 @@ public class Book
             input = Console.ReadLine();
             _selectedScripture += ($"\n{input}");
 
-            Console.WriteLine("Any more verses? ");
+            Console.WriteLine("Is there any more verses? ");
             input = Console.ReadLine();
         }
     }
