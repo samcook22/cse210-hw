@@ -14,7 +14,7 @@ public class Program
 
         while (choice != "5")
         {
-            Console.WriteLine("\nSelect option to continue: \n1. Write \n2. Display \n3. Load \n4. Save \n5. Quit");
+            Console.WriteLine("\nPlease select an option to continue: \n1. Write \n2. Display \n3. Load \n4. Save \n5. Quit");
             Console.Write("Choose something ");
             choice = Console.ReadLine();
             Console.WriteLine();

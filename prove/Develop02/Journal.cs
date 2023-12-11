@@ -3,8 +3,6 @@ using System.IO;
 public class Journal
 {
     public List<string> _entriesList = new List<string>();
-
-
     public void Display()
     {
         foreach (string entry in _entriesList)
@@ -12,8 +10,6 @@ public class Journal
             Console.WriteLine($"{entry}");
         }
     }
-
-
     public void Load()
     {
         Console.WriteLine("Input file name? ");
@@ -28,13 +24,10 @@ public class Journal
         }
 
     }
-
-
     public void Save()
     {
-        Console.WriteLine("Name for the file? (add '.txt' to the end of the name)");
+        Console.WriteLine("What is the name for the file? (add '.txt' to the end)");
         string _fileName = Console.ReadLine();
-
         using (StreamWriter outputFile = new StreamWriter(_fileName))
         {
              foreach (string entry in _entriesList)

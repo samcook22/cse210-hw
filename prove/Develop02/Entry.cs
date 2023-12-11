@@ -1,7 +1,7 @@
 public class Entry
 {
     public List<string> _promptsList = new List<string>()
-    {"What was something you were grateful for today?", "What was the best thing you did today?", "After today what will you change for tommorow?", "What was a miricale you saw today, big or small?"};
+    {"What was something you were grateful for today?", "What was the best thing you did today?", "After today, what will you change for tommorow?", "What was a miricale you saw today, big or small?"};
     
     public string NewEntry()
     {
