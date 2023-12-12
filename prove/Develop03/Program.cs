@@ -9,7 +9,7 @@ class Program
 
         Console.WriteLine("Scripture Memorizer\n");
         Console.WriteLine("Type 'r' to choose a random verse.");
-        Console.WriteLine("Type '2' to choose your own verse. ");
+        Console.WriteLine("Type '1' to choose your own verse. ");
         string input = Console.ReadLine();
 
 
